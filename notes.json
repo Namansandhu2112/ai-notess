@@ -1,0 +1,20 @@
+[
+  {
+    "question": "What does AI stand for?",
+    "answer": "Artificial Intelligence",
+    "noteTitle": "AI Basics",
+    "noteContent": "AI means creating machines or software that can perform tasks requiring human intelligence."
+  },
+  {
+    "question": "What is machine learning?",
+    "answer": "A subset of AI that allows systems to learn and improve from experience.",
+    "noteTitle": "Machine Learning",
+    "noteContent": "Machine learning uses data and algorithms to imitate the way humans learn, improving accuracy over time."
+  },
+  {
+    "question": "What is a neural network?",
+    "answer": "A computing system inspired by the human brain's network of neurons.",
+    "noteTitle": "Neural Networks",
+    "noteContent": "Neural networks are a series of algorithms that recognize patterns and interpret data through layers."
+  }
+]

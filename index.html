@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>AI Notes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Notes - Study with AI</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Welcome to AI Notes</h1>
-  <p>This site contains AI concepts, tutorials, and more.</p>
+  <nav>
+    <h1>AI Notes</h1>
+    <ul>
+      <li><a href="#" id="nav-home" class="active">Home</a></li>
+      <li><a href="#" id="nav-notes">Notes</a></li>
+      <li><a href="#" id="nav-quiz">Quiz</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home-section">
+      <h2>Welcome to AI Notes</h2>
+      <p>Learn AI concepts, take quizzes, and improve your skills!</p>
+    </section>
+
+    <section id="notes-section" class="hidden">
+      <h2>AI Notes</h2>
+      <input type="text" id="search-input" placeholder="Search notes..." />
+      <div id="notes-list"></div>
+    </section>
+
+    <section id="quiz-section" class="hidden">
+      <h2>Quiz Time!</h2>
+      <div id="quiz-container"></div>
+      <button id="next-question" class="hidden">Next Question</button>
+      <div id="quiz-result" class="hidden"></div>
+    </section>
+  </main>
+
+  <script src="notes.js"></script>
 </body>
 </html>
